@@ -1,0 +1,19 @@
+export(
+	"combine.prob","divergence.Bernoulli",
+	"ncombination.prob","ncomb.prob","new_combination.prob",
+	"new_plot_probs.to.combine","new_probs.to.combine","new_est.combi",
+	"nplot_probs.to.combine","nprobs.to.combine"
+)
+exportMethods(
+	"coerce","coerce<-","names","names<-","plot","[","[<-"
+)
+exportClasses(
+	"combination.prob","est.combi","Numeric",
+	"plot_probs.to.combine","probs.to.combine"
+)
+import(
+"methods"
+)
+importFrom("graphics", "abline", "legend", "lines", "points")
+importFrom("stats", "median", "optimize", "runif")
+
